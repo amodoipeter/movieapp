@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.moringaschool.movieapp.ui.main.popular.PopularMoviesFragment;
+import com.moringaschool.movieapp.ui.main.toprated.TopRatedFragment;
 
 public class TabPageAdapter extends FragmentPagerAdapter {
     int TOTAL_TAB = 3;
