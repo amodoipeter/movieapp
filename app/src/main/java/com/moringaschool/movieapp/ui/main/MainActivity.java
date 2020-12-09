@@ -1,4 +1,4 @@
-package com.moringaschool.movieapp;
+package com.moringaschool.movieapp.ui.main;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -6,6 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
+import com.moringaschool.movieapp.R;
 
 /**
  * @author moringa
