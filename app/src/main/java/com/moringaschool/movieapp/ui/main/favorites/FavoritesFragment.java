@@ -9,10 +9,10 @@ import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.movieapp.ui.detail.DetailViewModel;
 import com.moringaschool.movieapp.util.Constants;
 
 import static android.app.PendingIntent.getActivity;
