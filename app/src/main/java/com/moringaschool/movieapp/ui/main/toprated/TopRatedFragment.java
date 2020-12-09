@@ -13,6 +13,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.movieapp.common.BaseVMFragment;
+
 public class TopRatedFragment extends BaseVMFragment<TopRatedViewModel> implements MovieAdapter.OnMovieClickListener {
     private RecyclerView topRatedRecyclerView;
     private ProgressBar topRatedProgressBar;
