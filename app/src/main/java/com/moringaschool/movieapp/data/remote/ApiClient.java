@@ -1,6 +1,4 @@
-package com.moringaschool.movieapp.backend;
-
-import com.moringaschool.movieapp.backend.ApiService;
+package com.moringaschool.movieapp.data.remote;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;

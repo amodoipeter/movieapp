@@ -1,4 +1,4 @@
-package com.moringaschool.movieapp.model.movie;
+package com.moringaschool.movieapp.model.video;
 
 import android.os.Parcel;
 import android.os.Parcelable;

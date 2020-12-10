@@ -1,4 +1,4 @@
-package com.moringaschool.movieapp.backend;
+package com.moringaschool.movieapp.data.remote;
 
 import java.io.IOException;
 

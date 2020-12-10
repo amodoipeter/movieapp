@@ -1,6 +1,7 @@
-package com.moringaschool.movieapp.model.movie;
+package com.moringaschool.movieapp.model.video;
 
 import com.google.gson.annotations.SerializedName;
+import com.moringaschool.movieapp.model.video.MovieVideoResults;
 
 import java.util.List;
 
