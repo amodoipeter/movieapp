@@ -5,10 +5,15 @@ import android.content.Context;
 import androidx.lifecycle.LiveData;
 
 
+import com.moringaschool.movieapp.data.local.MovieDao;
+import com.moringaschool.movieapp.data.local.MovieDatabase;
 import com.moringaschool.movieapp.model.movie.MovieResults;
 
 import java.util.List;
 
+/**
+ * @author moringa
+ */
 public class DetailRepository {
     Context context;
     MovieDao movieDao;

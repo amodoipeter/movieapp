@@ -5,6 +5,9 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.movieapp.databinding.MovieItemBinding;
+import com.moringaschool.movieapp.model.movie.MovieResults;
+
 
 /**
  * @author moringa
@@ -24,8 +27,8 @@ public class MovieViewHolder extends RecyclerView.ViewHolder {
         binding.executePendingBindings();
     }
 
-    public static com.nese.movieapp.ui.main.MovieViewHolder create(LayoutInflater inflater, ViewGroup parent, MovieAdapter.OnMovieClickListener onMovieClickListener) {
+    public static com.moringaschool.movieapp.ui.main.MovieViewHolder create(LayoutInflater inflater, ViewGroup parent, MovieAdapter.OnMovieClickListener onMovieClickListener) {
         MovieItemBinding movieItemBinding = MovieItemBinding.inflate(inflater, parent, false);
-        return new com.nese.movieapp.ui.main.MovieViewHolder(movieItemBinding, onMovieClickListener);
+        return new com.moringaschool.movieapp.ui.main.MovieViewHolder(movieItemBinding, onMovieClickListener);
     }
 }
