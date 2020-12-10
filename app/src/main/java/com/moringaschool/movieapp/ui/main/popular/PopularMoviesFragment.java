@@ -12,8 +12,13 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.movieapp.R;
 import com.moringaschool.movieapp.common.BaseVMFragment;
+import com.moringaschool.movieapp.model.movie.MovieResults;
+import com.moringaschool.movieapp.ui.detail.DetailActivity;
 import com.moringaschool.movieapp.ui.main.MovieAdapter;
+
+import static com.moringaschool.movieapp.util.Constants.EXTRA_POPULAR_MOVIES;
 
 
 public class PopularMoviesFragment extends BaseVMFragment<PopularMoviesViewModel> implements MovieAdapter.OnMovieClickListener {

@@ -5,6 +5,9 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+/**
+ * @author moringa
+ */
 public class MovieViewHolder extends RecyclerView.ViewHolder {
 
     private final MovieItemBinding binding;
