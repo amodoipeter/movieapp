@@ -12,6 +12,9 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.moringaschool.movieapp.ui.detail.DetailViewModel;
 
+/**
+ * @author moringa
+ */
 public abstract class BaseVMFragment<VM extends ViewModel> extends Fragment {
     VM viewModel;
 

@@ -5,12 +5,11 @@ import android.view.ViewGroup;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.movieapp.databinding.ItemReviewBinding;
 import com.moringaschool.movieapp.model.reviews.MovieReviewResult;
 
 
-/**
- * @author moringa
- */
+
 public class ReviewViewHolder extends RecyclerView.ViewHolder {
 
     private final ItemReviewBinding binding;

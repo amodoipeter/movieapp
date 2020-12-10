@@ -10,6 +10,9 @@ import androidx.databinding.ViewDataBinding;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
+/**
+ * @author moringa
+ */
 public abstract class BaseActivity<DB extends ViewDataBinding, VM extends ViewModel> extends AppCompatActivity {
     DB dataBinding;
     VM viewModel;

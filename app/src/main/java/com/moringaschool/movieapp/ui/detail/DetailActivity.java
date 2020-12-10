@@ -11,6 +11,8 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 import com.moringaschool.movieapp.R;
+import com.moringaschool.movieapp.common.BaseActivity;
+import com.moringaschool.movieapp.databinding.ActivityDetailBinding;
 import com.moringaschool.movieapp.model.movie.MovieResults;
 import com.moringaschool.movieapp.util.Constants;
 

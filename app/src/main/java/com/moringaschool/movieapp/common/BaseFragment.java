@@ -14,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
+
+
 public abstract class BaseFragment<DB extends ViewDataBinding, VM extends ViewModel> extends Fragment {
     DB dataBinding;
     VM viewModel;
@@ -41,6 +43,6 @@ public abstract class BaseFragment<DB extends ViewDataBinding, VM extends ViewMo
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         dataBinding = DataBindingUtil.inflate(inflater, getLayoutResource(), container, false);
         onCreateView(dataBinding);
-        return dataBinding.getRootandroid();
+        return dataBinding.getRoot();
     }
 }

@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.moringaschool.movieapp.model.movie.MovieResults;
+import com.moringaschool.movieapp.ui.detail.overview.OverviewMovieFragment;
 import com.moringaschool.movieapp.ui.detail.review.ReviewMovieFragment;
 
 

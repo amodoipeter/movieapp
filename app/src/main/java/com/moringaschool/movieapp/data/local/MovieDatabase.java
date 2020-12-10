@@ -12,6 +12,9 @@ import com.moringaschool.movieapp.model.movie.MovieResults;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * @author moringa
+ */
 @Database(entities = {MovieResults.class}, version = 1)
 public abstract class MovieDatabase extends RoomDatabase {
     public static volatile com.moringaschool.movieapp.data.local.MovieDatabase INSTANCE;
