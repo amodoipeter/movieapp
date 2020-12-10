@@ -14,6 +14,9 @@ import com.moringaschool.movieapp.R;
 import com.moringaschool.movieapp.model.movie.MovieResults;
 import com.moringaschool.movieapp.util.Constants;
 
+/**
+ * @author moringa
+ */
 public class DetailActivity extends BaseActivity<ActivityDetailBinding, DetailViewModel> {
     MovieResults movie;
     boolean isFav;
