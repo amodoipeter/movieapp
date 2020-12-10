@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.moringaschool.movieapp.R;
+import com.moringaschool.movieapp.common.BaseVMFragment;
 import com.moringaschool.movieapp.model.movie.MovieResults;
 
 import java.util.List;
