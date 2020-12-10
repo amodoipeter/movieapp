@@ -8,6 +8,9 @@ import com.moringaschool.movieapp.ui.main.MainRepository;
 
 import java.util.List;
 
+/**
+ * @author moringa
+ */
 public class PopularMoviesViewModel extends ViewModel {
     MainRepository repository;
 

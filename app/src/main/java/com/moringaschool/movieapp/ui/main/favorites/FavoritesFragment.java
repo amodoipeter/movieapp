@@ -12,8 +12,12 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.moringaschool.movieapp.R;
 import com.moringaschool.movieapp.common.BaseVMFragment;
+import com.moringaschool.movieapp.model.movie.MovieResults;
+import com.moringaschool.movieapp.ui.detail.DetailActivity;
 import com.moringaschool.movieapp.ui.detail.DetailViewModel;
+import com.moringaschool.movieapp.ui.main.MovieAdapter;
 import com.moringaschool.movieapp.util.Constants;
 
 import static android.app.PendingIntent.getActivity;
