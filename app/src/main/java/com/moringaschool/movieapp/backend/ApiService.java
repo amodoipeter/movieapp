@@ -1,4 +1,4 @@
-package com.moringaschool.movieapp.service;
+package com.moringaschool.movieapp.backend;
 
 import com.moringaschool.movieapp.model.detail.MovieDetailResponse;
 import com.moringaschool.movieapp.model.movie.MovieResponse;
