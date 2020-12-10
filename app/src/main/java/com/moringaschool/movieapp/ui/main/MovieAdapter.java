@@ -9,6 +9,9 @@ import androidx.recyclerview.widget.ListAdapter;
 
 import com.moringaschool.movieapp.model.movie.MovieResults;
 
+/**
+ * @author moringa
+ */
 public class MovieAdapter extends ListAdapter<MovieResults, MovieViewHolder> {
     OnMovieClickListener onMovieClickListener;
 
