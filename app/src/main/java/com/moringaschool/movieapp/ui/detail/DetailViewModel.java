@@ -6,6 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
+import com.moringaschool.movieapp.model.movie.MovieResults;
+
 import java.util.List;
 
 public class DetailViewModel extends AndroidViewModel {
