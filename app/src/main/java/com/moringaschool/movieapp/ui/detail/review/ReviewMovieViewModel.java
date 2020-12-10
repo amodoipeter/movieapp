@@ -4,8 +4,13 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
 
+import com.moringaschool.movieapp.model.reviews.MovieReviewResult;
+
 import java.util.List;
 
+/**
+ * @author moringa
+ */
 public class ReviewMovieViewModel extends ViewModel {
     ReviewRepository repository = new ReviewRepository();
 

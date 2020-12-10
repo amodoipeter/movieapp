@@ -23,6 +23,9 @@ import java.util.List;
 import static com.moringaschool.movieapp.util.Constants.MOVIE_KEY;
 
 
+/**
+ * @author moringa
+ */
 public class ReviewMovieFragment extends BaseVMFragment<ReviewMovieViewModel> {
     private RecyclerView reviewRecylerView;
     private ProgressBar reviewProgress;
