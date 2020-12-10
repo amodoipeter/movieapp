@@ -1,5 +1,6 @@
 package com.moringaschool.movieapp.service;
 
+import com.moringaschool.movieapp.model.detail.MovieDetailResponse;
 import com.moringaschool.movieapp.model.movie.MovieResponse;
 
 import retrofit2.Call;
