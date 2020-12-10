@@ -8,6 +8,7 @@ import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.lifecycle.Observer;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -16,6 +17,8 @@ import com.moringaschool.movieapp.common.BaseVMFragment;
 import com.moringaschool.movieapp.model.movie.MovieResults;
 import com.moringaschool.movieapp.model.reviews.MovieReviewResult;
 
+
+import java.util.List;
 
 import static com.moringaschool.movieapp.util.Constants.MOVIE_KEY;
 

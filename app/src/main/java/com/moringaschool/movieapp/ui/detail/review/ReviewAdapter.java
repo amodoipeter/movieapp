@@ -7,7 +7,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
+import com.moringaschool.movieapp.model.reviews.MovieReviewResult;
 
+
+/**
+ * @author moringa
+ */
 public class ReviewAdapter extends ListAdapter<MovieReviewResult, ReviewViewHolder> {
     protected ReviewAdapter(@NonNull DiffUtil.ItemCallback<MovieReviewResult> diffCallback) {
         super(diffCallback);

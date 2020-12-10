@@ -3,6 +3,7 @@ package com.moringaschool.movieapp.backend;
 import com.moringaschool.movieapp.model.detail.MovieDetailResponse;
 import com.moringaschool.movieapp.model.movie.MovieResponse;
 import com.moringaschool.movieapp.model.movie.MovieVideoResponse;
+import com.moringaschool.movieapp.model.reviews.MovieReviewResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
