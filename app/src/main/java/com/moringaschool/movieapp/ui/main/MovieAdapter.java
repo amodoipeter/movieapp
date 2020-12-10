@@ -7,6 +7,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
+import com.moringaschool.movieapp.model.movie.MovieResults;
+
 public class MovieAdapter extends ListAdapter<MovieResults, MovieViewHolder> {
     OnMovieClickListener onMovieClickListener;
 
