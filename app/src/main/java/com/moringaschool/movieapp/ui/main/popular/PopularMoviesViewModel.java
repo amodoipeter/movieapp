@@ -3,6 +3,8 @@ package com.moringaschool.movieapp.ui.main.popular;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.moringaschool.movieapp.model.movie.MovieResults;
+
 import java.util.List;
 
 public class PopularMoviesViewModel extends ViewModel {
