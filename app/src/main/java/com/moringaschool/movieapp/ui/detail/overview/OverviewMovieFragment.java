@@ -12,12 +12,16 @@ import androidx.annotation.Nullable;
 
 
 import com.moringaschool.movieapp.R;
+import com.moringaschool.movieapp.common.BaseFragment;
 import com.moringaschool.movieapp.databinding.OverviewMovieFragmentBinding;
 import com.moringaschool.movieapp.model.movie.MovieResults;
 
 import static com.moringaschool.movieapp.util.Constants.MOVIE_KEY;
 import static com.moringaschool.movieapp.util.Constants.YOUTUBE_WATCH_URL;
 
+/**
+ * @author moringa
+ */
 public class OverviewMovieFragment extends BaseFragment<OverviewMovieFragmentBinding, OverviewMovieViewModel> {
 
     private OverviewMovieViewModel viewModel;
@@ -26,7 +30,7 @@ public class OverviewMovieFragment extends BaseFragment<OverviewMovieFragmentBin
     public static com.moringaschool.movieapp.ui.detail.overview.OverviewMovieFragment newInstance(MovieResults movie) {
         Bundle args = new Bundle();
         args.putParcelable(MOVIE_KEY, movie);
-        com.moringaschool.movieapp.ui.detail.overview.OverviewMovieFragment fragment = new com.nese.movieapp.ui.detail.overview.OverviewMovieFragment();
+        com.moringaschool.movieapp.ui.detail.overview.OverviewMovieFragment fragment = new com.moringaschool.movieapp.ui.detail.overview.OverviewMovieFragment();
         fragment.setArguments(args);
         return fragment;
     }
