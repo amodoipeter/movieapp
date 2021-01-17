@@ -13,13 +13,19 @@
         android:theme="@style/Theme.Movieapp">
         <activity android:name=".ui.detail.DetailActivity"
             android:theme="@style/Theme.MovieApp.NoActionBar" />
-        <activity android:name=".ui.main.MainActivity"
+        <activity android:name=".ui.main.LoginActivity"
             android:theme="@style/Theme.MovieApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.main.MainActivity1"
+            android:theme="@style/Theme.MovieApp"/>
+        <activity android:name=".ui.main.MainActivity"
+            android:theme="@style/Theme.MovieApp" />
+        <activity android:name=".ui.main.HomeActivity"/>
+
     </application>
 </manifest>

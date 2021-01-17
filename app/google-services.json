@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "846244837033",
+    "project_id": "movieapp-21e02",
+    "storage_bucket": "movieapp-21e02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846244837033:android:3dd288177d700298191bb8",
+        "android_client_info": {
+          "package_name": "com.moringaschool.movieapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846244837033-mmrvacnu56a8rvtu8p9882udosrmna5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moringaschool.movieapp",
+            "certificate_hash": "b9f2cc200bbc33bfa9731682f4121d6fa669cca8"
+          }
+        },
+        {
+          "client_id": "846244837033-r2cmq3a1t2rn9rs900f5ekpbrbhqchts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARb7ZJ2jbu8MRV_tCgYrSXS2PhynYHt3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846244837033-r2cmq3a1t2rn9rs900f5ekpbrbhqchts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
